@@ -14,5 +14,8 @@ on:
 jobs:
   release:
     uses: casbin-rs/semantic-release-action-rust/.github/workflows/release-binary.yml@master
+    with:
+      target: |
+        x86_64-pc-windows-gnu
     secrets:
       cargo-registry-token: ${{ secrets.CARGO_TOKEN }}
