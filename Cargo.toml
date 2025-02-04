@@ -9,7 +9,6 @@ license = "Apache-2.0"
 description = "casbin-rust-cli is a command-line tool based on Casbin (Rust language), enabling you to use all of Casbin APIs in the shell."
 homepage= "https://github.com/casbin-rs/casbin-rust-cli"
 repository = "https://github.com/casbin-rs/casbin-rust-cli"
-readme= "README.md"
 
 [dependencies]
 casbin = { version = "2.8.0", features = ["explain", "logging"] }
